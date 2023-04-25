@@ -20,7 +20,7 @@ export const precosLivros = [
     preco: 45
   },
   {
-    titulo: "Phyton",
+    titulo: "Python",
     preco: 20
   }
 ]
