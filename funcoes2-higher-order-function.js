@@ -6,15 +6,15 @@
 // são geradas dentro de outras funções e o valor de retorno da função usuarioLogin() é outra função, acesso().
 
 const acesso = (nome) => {
-    return `${nome} logou com sucesso no sistema!`
+  return `${nome} logou com sucesso no sistema!`
 }
 
 const usuarioLogin = (nome) => {
-    let array = []
-    for (i = 0; i < 90000; i++) {
-        array.push(i)
-    }
-    return acesso(nome)
+  let array = []
+  for (let i = 0; i < 9000000; i++) {
+    array.push(i)
+  }
+  return acesso(nome)
 }
 
 let print = usuarioLogin("Luke")
